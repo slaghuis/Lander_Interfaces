@@ -1,4 +1,4 @@
-int32 delay
+std_msgs/Empty goal
 ---
 bool result
 ---
