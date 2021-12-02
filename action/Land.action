@@ -1,0 +1,9 @@
+#goal definition
+geometry_msgs/PoseStamped pose
+int32 target
+---
+#goal result
+bool outcome
+---
+#goal feedback
+float32 distance_to_target
