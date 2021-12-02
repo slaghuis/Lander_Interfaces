@@ -23,9 +23,11 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/TargetLand.action"
+  "action/Land.action"
   "msg/Track.msg"
   "msg/TrackStamped.msg"
   "srv/Snap.srv"
+  "srv/SetTarget.srv"
   DEPENDENCIES
   std_msgs
   geometry_msgs
